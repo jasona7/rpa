@@ -3,6 +3,7 @@
   "description": "Scrape and process top hiring universities for tech companies as shown on linkedin",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Excel.Activities": "[2.8.3-beta.867639]",
     "UiPath.Mail.Activities": "[1.8.3-beta.865074]",
     "UiPath.System.Activities": "[20.4.0-beta.864462]",
@@ -11,7 +12,7 @@
   "webServices": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.4.0.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -31,6 +32,10 @@
       "privateWorkflows": []
     },
     "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
   },
   "expressionLanguage": "VisualBasic"
 }
